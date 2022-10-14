@@ -1,0 +1,174 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url(pratiksha-mohanty-V0xp-dTS3z0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+}
+.logbox
+{
+    width: 720px;
+    height: 700px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 40px;
+    background: #000000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 0%;
+
+}
+.formtable
+{
+    border-collapse: separate;
+    border-spacing: 30px 20px;
+}
+#t2_tbl
+{
+    border-spacing: 30px 10px;
+}
+h1
+{
+    margin: 10px;
+    padding: 0 0 20px;
+    text-align:  center;
+    font-size: 35px;
+}
+.logbox p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.logbox input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+::-ms-reveal
+{
+    filter: invert(100%);
+}
+.logbox input[type="text"], input[type="password"],[type="email"], input[type="tel"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    color: #fb2525;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+}
+
+.logbox input[type="radio"]
+{
+    width: 40px;
+    margin-bottom: 10px;
+    height: 15px;
+    cursor: pointer;
+}
+#gender
+{
+    padding-bottom: 10px;
+}
+.mf
+{
+    padding-left: 15px;
+}
+.t2
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+#nextbtn_colomn
+{
+    width: 150px;
+    text-align: center;
+}
+#clearbtn_colomn
+{
+    width: 150px;
+    text-align: center;
+}
+.logbox input[type="submit"],[type="reset"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.logbox input[type="submit"]:hover,[type="reset"]:hover
+{
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+}
+
+.logbox a
+{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: #808080;
+
+}
+.logbox a:hover
+{
+    color: #fff;
+}
+
+
+#avtupload
+{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+label
+{
+    font-size: 16px;
+
+}
+/*terms and conditions*/
+.conditions
+{
+    text-align: center;
+}
+#tc
+{
+    width: 20px;
+}
+/************* Extra page *******************/
+#blah
+{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+#SR
+{
+    width: 200px;
+}
+#div_SR
+{
+    text-align: center;
+}
+#message
+{
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    color: red;
+}

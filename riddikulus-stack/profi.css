@@ -1,0 +1,182 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+}
+.prof-box
+{
+    width: 700px;
+    height: 650px;
+    padding: 30px 30px 30px 30px;
+    background: #000000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 0px;
+
+}
+.blocks
+{
+    width: 210px;
+    height: 150px;
+
+}
+
+#topleft
+{
+    vertical-align: top;
+    text-align: left;
+}
+#topright
+{
+    vertical-align: top;
+    text-align: right;
+}
+#icon_btn
+{
+    background-color: transparent;
+    border-color: transparent;
+}
+#icon
+{
+    color: white;
+    font-size: 35px;
+}
+#dp
+{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*drop down*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-options {
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 70px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.dropdown-options a {
+    color: black;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-options a:hover
+{
+    background-color: #a60000;
+    color: white;
+}
+
+.dropdown:hover .dropdown-options {
+    display: block;
+}
+
+
+.top-section
+{
+    text-align: center;
+}
+.top-section h2,h5
+{
+    text-align: center;
+}
+.top-section h2
+{
+    font-weight: bold;
+}
+.top-section p
+{
+    text-align: center;
+    color: #0000ff;
+
+}
+#heading
+{
+    font-size: 18px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    overflow: hidden;
+}
+#heading
+{
+    background-color: gray;
+    width: 640px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+#bio
+{
+    background-color: gray;
+    width: 640px;
+    height: 225px;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+/* custom scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #cecece;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a60000;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a60000;
+}
+
+#bio p
+{
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 17px;
+    text-align: justify;
+}
+

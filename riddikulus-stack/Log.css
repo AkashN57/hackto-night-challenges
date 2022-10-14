@@ -1,0 +1,102 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    
+}
+.logbox
+{
+   width: 320px;
+   height: 400px;
+   padding: 70px 30px;
+   background: #000000;
+   color: #fff;
+   top: 50%;
+   left: 50%;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   box-sizing: border-box; 
+   
+}
+.avatar
+{
+    width: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    border: 5px solid darkgray;
+    border-radius: 50%;
+
+
+}
+h1
+{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align:  center;
+    font-size: 22px;
+}
+.logbox p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.logbox input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.logbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    color: #fb2525;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+}
+::-ms-reveal
+{
+    filter: invert(100%);
+}
+.logbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.logbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+}
+.logbox a
+{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: gray;
+
+}
+.logbox a:hover
+{
+    color: #fff;
+}
+.invalid
+{
+    background-color: transparent;
+    padding-bottom: 10px;
+    color: red;
+}
